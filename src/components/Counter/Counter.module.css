@@ -1,0 +1,14 @@
+.buttonCounter {
+  width: 100px;
+  height: 35px;
+}
+
+.buttonItem {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.spanText {
+  text-align: center;
+}
