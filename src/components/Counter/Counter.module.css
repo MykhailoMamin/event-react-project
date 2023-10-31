@@ -1,14 +1,21 @@
-.buttonCounter {
-  width: 100px;
-  height: 35px;
+.counter {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
 }
 
-.buttonItem {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+.buttonCounter {
+  margin: 15px;
+  width: 100px;
+  height: 35px;
+  background-color: #2ca2da;
+  color: #fff;
+  border: none;
 }
 
 .spanText {
-  text-align: center;
+  margin-right: 15px;
+  padding-left: 15px;
+  font-size: 64px;
 }

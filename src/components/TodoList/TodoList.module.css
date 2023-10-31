@@ -1,0 +1,15 @@
+.todoItem {
+  display: flex;
+}
+
+.todoList {
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  display: flex;
+}
+
+.todoButton {
+  width: 100px;
+  height: 25px;
+}
