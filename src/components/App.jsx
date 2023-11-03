@@ -3,6 +3,7 @@ import { Component } from 'react';
 import Counter from './Counter/Counter';
 import Dropdown from './Dropdown/Dropdown';
 import TodoList from './TodoList/TodoList';
+import Form from './Form/Form';
 
 class App extends Component {
   state = {
@@ -12,6 +13,8 @@ class App extends Component {
       { id: 'id-3', text: 'Todo 3', completed: false },
       { id: 'id-4', text: 'Todo 4', completed: false },
     ],
+    name: '',
+    tag: '',
   };
 
   deleteTodo = todoId => {
@@ -33,11 +36,12 @@ class App extends Component {
       <>
         {/* <Counter /> */}
         {/* <Dropdown /> */}
-        <div>
+        {/* <div>
           <p>Загальна кількість: {totalTodo}</p>
           <p>Кількість виконаних: {completedTodos}</p>
         </div>
-        <TodoList todos={todos} onDeleteTodo={this.deleteTodo} />
+        <TodoList todos={todos} onDeleteTodo={this.deleteTodo} /> */}
+        <Form />
       </>
     );
   }
